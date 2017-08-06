@@ -7,7 +7,7 @@ gulp.task("scripts", ["modernizr"], function(callback){
 			console.log(err.toString());
 		}
 
-		console.log();
-		callback(stats.toString());
+		console.log(stats.toString());
+    	callback();
 	});
 });
